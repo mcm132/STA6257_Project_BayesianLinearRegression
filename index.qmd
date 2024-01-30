@@ -1,5 +1,5 @@
 ---
-title: "Sample Report - Data Science Capstone"
+title: "Data Science Capstone Project Spring 2024 - Bayesian Linear Regression"
 author: "Mary Catherine Morrow"
 date: '`r Sys.Date()`'
 format:
@@ -7,7 +7,7 @@ format:
     code-fold: true
 course: STA 6257 - Advanced Statistical Modeling
 bibliography: references.bib # file contains bibtex for references
-#always_allow_html: true # this allows to get PDF with HTML features
+always_allow_html: true # this allows to get PDF with HTML features
 self-contained: true
 execute: 
   warning: false
@@ -19,22 +19,93 @@ editor:
 
 ## Introduction
 
-### What is "mehtod"?
+### What is "Bayesian Linear Regression"?
 
-This is an introduction to Kernel regression, which is a non-parametric
-estimator that estimates the conditional expectation of two variables
-which is random. The goal of a kernel regression is to discover the
-non-linear relationship between two random variables. To discover the
-non-linear relationship, kernel estimator or kernel smoothing is the
-main method to estimate the curve for non-parametric statistics. In
-kernel estimator, weight function is known as kernel function
-[@efr2008]. Cite this paper [@bro2014principal]. The GEE [@wang2014].
+This is an introduction to Bayesian Linear Regression, which is a ...
 
-This is my work and I want to add more work...
+### Article 1 from Week 2:
 
-### Related work
+**Title:** Bayesian multivariate linear regression with application to
+change point models in hydrometeorological variables
 
-This section is going to cover the literature review...
+**Summary:** The article cited first discusses the history of Bayesian
+analysis, including the definition, and how it relates to climate
+change. It then dives into three different Bayesian change point
+detection models (Perreault et al. \[2000a\], Perreault et al.
+\[2000b\], and Rasmussen \[2001\]) and how they compare against Bayesian
+analysis paired with Gibbs sampling. By comparing against these three
+models, the proposed method “can readily be applied to cases where the
+change point simultaneously occurs in several response variables, to
+cases where the change does not occur with certainty and to cases where
+informative priors are appropriate”. [@seidou2007]
+
+**Citation:** O. Seidou, J. Asselin, and T. B. M. J. Ouarda, “Bayesian
+multivariate linear regression with application to change point models
+in hydrometeorological variables,” Water Resources Research, vol. 43,
+no. 8, Aug. 2007, doi: 10.1029/2005wr004835.
+
+### Article 2 from Week 2:
+
+**Title:** Positional error compensation for aviation drilling robot
+based on Bayesian linear regression
+
+**Summary:** The article cited discusses how Bayeisan Linear Regression
+was used to model positional accuracy of aviation drilling robots using
+a training data set. After the model was built, experiments were
+performed to confirm the model’s functionality, where a test dataset was
+used. The experiements showed that using this method to model the
+positional accuracy resulted in being within the 95% confidence interval
+and a high R2 value of 0.941, meaning the Bayesian Linear Regression
+method has good compensation performance for aviation
+drilling.[@chen2024]
+
+**Citation:** D. Chen, P. Lv, L. Xue, H. Xing, L. Lu, and D. Kong,
+“Positional error compensation for aviation drilling robot based on
+Bayesian linear regression,” Engineering Applications of Artificial
+Intelligence, vol. 127, p. 107263, Jan. 2024, doi:
+10.1016/j.engappai.2023.107263.
+
+### Article 1 from Week 3:
+
+**Title:** Evidence for a non-universal Kennicutt-Schmidt relationship
+using hierarchical Bayesian linear Regression
+
+**Summary:** The goal of the research described in the article cited was
+to create a model, particularly a Bayesian Linear Regression (BLR)
+model, that estimated the parameters of the Kennicutt-Schmidt (KS) law
+and the hierarchal structure of a given data set. The BLR model was
+constructed using Markov Chain Monte Carlo (MCMC) and Gibb’s sampling.
+The model was tested with synthetic test data sets made to match the
+format of the model building data set. The model was considered to have
+a high degree of accuracy by comparing median of the posterior, the
+posterior distributions of the slope and intercept, the median of the
+scatter term, and PDFs of the estimated group parameters against the
+true values. Then, the Bayesian model was compared to the Ordinary Least
+Squares (OLS) model for an accuracy check. Here, the OLS model
+consistently overestimated the slopes and underestimated the intercepts
+for individual galaxies within the group as well as the group as a
+whole. This was expected as the data set included noise and scatter,
+which are not accounted for in the OLS method. By testing distribution
+hypotheses using the OLS method and comparing it against the Bayesian
+method, it was shown that Bayesian posterior can recover individuals’
+slopes and intercepts regardless if the assumed distribution is
+incorrect. However, accuracy of the Bayesian method increases if the
+correct distribution assumptions are made. [@shetty2013]
+
+**Citation:** R. Shetty, B. C. Kelly, and F. Bigiel, “Evidence for a
+non-universal Kennicutt–Schmidt relationship using hierarchical Bayesian
+linear regression,” Monthly Notices of the Royal Astronomical Society,
+vol. 430, no. 1, pp. 288–304, Jan. 2013, doi: 10.1093/mnras/sts617.
+
+### Article 2 from Week 3:
+
+**Title:** Bayesian linear regression with sparse priors
+
+**Summary:** [@castillo2015]
+
+**Citation:** I. Castillo, J. Schmidt-Hieber, and A. Van Der Vaart,
+“Bayesian linear regression with sparse priors,” The Annals of
+Statistics, vol. 43, no. 5, Oct. 2015, doi: 10.1214/15-aos1334.
 
 ## Methods
 

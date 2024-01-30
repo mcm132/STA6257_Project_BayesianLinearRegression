@@ -101,7 +101,7 @@ vol. 430, no. 1, pp. 288–304, Jan. 2013, doi: 10.1093/mnras/sts617.
 
 **Title:** Bayesian linear regression with sparse priors
 
-**Summary:** [@castillo2015]
+**Summary:** This cited article details the Bayesian method for high-dimensional linear regression under sparsity constraints. A standard model was used, but it focused mainly on the sparse setup, where n is less than or greater than p and many of the coefficients of the parameter vector are zero, or close there to. Within the work, it is shown that the LASSO frequentist method is non-Bayesian. [@castillo2015]
 
 **Citation:** I. Castillo, J. Schmidt-Hieber, and A. Van Der Vaart,
 “Bayesian linear regression with sparse priors,” The Annals of

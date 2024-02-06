@@ -101,11 +101,51 @@ vol. 430, no. 1, pp. 288–304, Jan. 2013, doi: 10.1093/mnras/sts617.
 
 **Title:** Bayesian linear regression with sparse priors
 
-**Summary:** This cited article details the Bayesian method for high-dimensional linear regression under sparsity constraints. A standard model was used, but it focused mainly on the sparse setup, where n is less than or greater than p and many of the coefficients of the parameter vector are zero, or close there to. Within the work, it is shown that the LASSO frequentist method is non-Bayesian. [@castillo2015]
+**Summary:** This cited article details the Bayesian method for
+high-dimensional linear regression under sparsity constraints. A
+standard model was used, but it focused mainly on the sparse setup,
+where n is less than or greater than p and many of the coefficients of
+the parameter vector are zero, or close there to. Within the work, it is
+shown that the LASSO frequentist method is non-Bayesian. [@castillo2015]
 
 **Citation:** I. Castillo, J. Schmidt-Hieber, and A. Van Der Vaart,
 “Bayesian linear regression with sparse priors,” The Annals of
 Statistics, vol. 43, no. 5, Oct. 2015, doi: 10.1214/15-aos1334.
+
+### Article 1 from Week 4:
+
+**Title:** How to lose at Monte Carlo: a simple dynamical system whose
+typical statistical behavior is non-computable
+
+**Summary:** This cited article expands upon the idea of using
+statistical predictions, with methods like Monte Carlo, to make “future
+behavior of nonlinear dynamical systems”, and aimed to find where the
+Monte Carlo method fails. This is important because it helps further
+define the limitations of the method, which allows for more proper use
+of the method in the future. Through the analysis, the Monte Carlo
+method was deemed to not work through the use of non-computable physical
+measures, like a black-box. [@rojas2020]
+
+**Citation:** C. Rojas and M. Yampolsky, “How to lose at Monte Carlo: a
+simple dynamical system whose typical statistical behavior is
+non-computable,” Proceedings of the 52nd Annual ACM SIGACT Symposium on
+Theory of Computing, pp. 1066–1072, Jun. 2020, doi:
+10.1145/3357713.3384237.
+
+### Article 2 from Week 4:
+
+**Title:** Gibbs sampling on large lattice with GMRF
+
+**Summary:** The goal of the cited article was to construct a method for
+using Gibbs sampling for large lattices, which includes greater than 100
+points. This is helpful as it allows for Gibbs sampling to be applied to
+2D and 3D lattice structures using GMRF (Gaussian Markov Random Fields)
+covariance. This article gives good applications of GMRF, Gibbs
+sampling, and Gibbs sampling with GMRF.[@marcotte2018]
+
+**Citation:** D. Marcotte and D. Allard, “Gibbs sampling on large
+lattice with GMRF,” Computers & Geosciences, vol. 111, Art. no. 190,
+Feb. 2018, doi: 10.1016/j.cageo.2017.11.012.
 
 ## Methods
 

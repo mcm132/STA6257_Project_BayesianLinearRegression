@@ -115,7 +115,7 @@ Statistics, vol. 43, no. 5, Oct. 2015, doi: 10.1214/15-aos1334.
 ### Article 1 from Week 4:
 
 **Title:** How to lose at Monte Carlo: a simple dynamical system whose
-typical statistical behavior is non-computable
+typical statistical behavior is non-computable 
 
 **Summary:** This cited article expands upon the idea of using
 statistical predictions, with methods like Monte Carlo, to make “future
